@@ -1,0 +1,18 @@
+@import '../../assets/styles/variables.scss';
+.converter-content{
+    button {
+        border: 1px solid #07a4ea;
+        background-color: #07a4ea;
+        color: #fff;
+        padding: 15px 20px;
+        border-radius: 4px;
+        line-height: 20px;
+        display: block;
+        margin-top: 15px;
+        width: 100%;
+        font-size: $fontSize;
+        cursor: pointer;
+        box-sizing: border-box;
+        height: 50px;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../assets/styles/variables.scss';
+
+.converter-content{
+    label {
+        font-size: $fontSize;
+        min-width: $labelW;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    input {
+        width: $inputW;
+        padding: 5px 10px;
+        line-height: 20px;
+        box-sizing: border-box;
+        margin-bottom:20px;
+    }
+
+    span.error {
+        font-size: $fontSize_s;
+        font-style: italic;
+        color: #ef0707;
+        position: absolute;
+        top: 77px;
+        right: 40px;
+    }
+}
